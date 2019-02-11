@@ -8,6 +8,6 @@ Simply compile this docker image like you would with literally any other one.
 Then run it with the argument -p 22:22 to bind it to the public SSH port. 
 Do not forget to change the SSH port you use to connect to something different.
 
-##Logging
+## Logging
 The container will log all commands executed to a file stored in /var/log/commands.log.
 All authentication attempts will be logged in /var/log/auth.log, as they normally would.
